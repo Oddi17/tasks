@@ -1,6 +1,6 @@
 import math
 import pytest
-from task_shapes import Shape, Circle, Triangle
+from dataeng.task1.task_shapes import Shape, Circle, Triangle
 
 def test_shape_cannot_be_instantiated():
     with pytest.raises(TypeError):
